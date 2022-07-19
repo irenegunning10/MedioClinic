@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowstep>
+  <StepActionParameters />
+  <StepDefinition>
+    <Step xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <TimeoutEnabled>false</TimeoutEnabled>
+      <TimeoutTarget>00000000-0000-0000-0000-000000000000</TimeoutTarget>
+      <SourcePoints>
+        <SourcePoint Guid="07d65bed-29ae-4287-85bf-bc71deb3392d">
+          <Label>Default</Label>
+          <Type>0</Type>
+          <StepRolesSecurity>0</StepRolesSecurity>
+          <StepUsersSecurity>0</StepUsersSecurity>
+        </SourcePoint>
+      </SourcePoints>
+      <Position>
+        <X>-1</X>
+        <Y>-1</Y>
+      </Position>
+    </Step>
+  </StepDefinition>
+  <StepDisplayName>Published</StepDisplayName>
+  <StepGUID>8f08ca52-a296-4d44-86f4-8c66305cc4a6</StepGUID>
+  <StepName>published</StepName>
+  <StepOrder>2</StepOrder>
+  <StepRolesSecurity>0</StepRolesSecurity>
+  <StepType>100</StepType>
+  <StepUsersSecurity>0</StepUsersSecurity>
+  <StepWorkflowID>
+    <CodeName>Test</CodeName>
+    <GUID>c1cf6411-08f2-4914-ab64-e879a01e0587</GUID>
+    <ObjectType>cms.workflow</ObjectType>
+  </StepWorkflowID>
+  <StepWorkflowType>1</StepWorkflowType>
+</cms.workflowstep>

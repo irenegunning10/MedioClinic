@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflow>
+  <WorkflowAllowedObjects>;##DOCUMENTS##;</WorkflowAllowedObjects>
+  <WorkflowAutoPublishChanges>False</WorkflowAutoPublishChanges>
+  <WorkflowDisplayName>Test</WorkflowDisplayName>
+  <WorkflowEnabled>True</WorkflowEnabled>
+  <WorkflowGUID>c1cf6411-08f2-4914-ab64-e879a01e0587</WorkflowGUID>
+  <WorkflowName>Test</WorkflowName>
+  <WorkflowSendApproveEmails>True</WorkflowSendApproveEmails>
+  <WorkflowSendArchiveEmails>True</WorkflowSendArchiveEmails>
+  <WorkflowSendPublishEmails>True</WorkflowSendPublishEmails>
+  <WorkflowSendReadyForApprovalEmails>True</WorkflowSendReadyForApprovalEmails>
+  <WorkflowSendRejectEmails>True</WorkflowSendRejectEmails>
+  <WorkflowType>1</WorkflowType>
+</cms.workflow>

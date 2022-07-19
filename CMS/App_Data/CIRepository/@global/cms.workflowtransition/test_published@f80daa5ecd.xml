@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.workflowtransition>
+  <Parent>
+    <CodeName>published</CodeName>
+    <GUID>8f08ca52-a296-4d44-86f4-8c66305cc4a6</GUID>
+    <ObjectType>cms.workflowstep</ObjectType>
+    <Parent>
+      <CodeName>Test</CodeName>
+      <GUID>c1cf6411-08f2-4914-ab64-e879a01e0587</GUID>
+      <ObjectType>cms.workflow</ObjectType>
+    </Parent>
+  </Parent>
+  <Bindings>
+    <Binding id="cms.workflowstep_archived_cms.workflow_Test">
+      <TransitionEndStepID>
+        <CodeName>archived</CodeName>
+        <GUID>ecb9c019-1556-47c2-9fd8-b1f516387a5e</GUID>
+        <ObjectType>cms.workflowstep</ObjectType>
+        <Parent>
+          <CodeName>Test</CodeName>
+          <GUID>c1cf6411-08f2-4914-ab64-e879a01e0587</GUID>
+          <ObjectType>cms.workflow</ObjectType>
+        </Parent>
+      </TransitionEndStepID>
+      <TransitionSourcePointGUID>07d65bed-29ae-4287-85bf-bc71deb3392d</TransitionSourcePointGUID>
+      <TransitionType>0</TransitionType>
+      <TransitionWorkflowID>
+        <CodeName>Test</CodeName>
+        <GUID>c1cf6411-08f2-4914-ab64-e879a01e0587</GUID>
+        <ObjectType>cms.workflow</ObjectType>
+      </TransitionWorkflowID>
+    </Binding>
+  </Bindings>
+</cms.workflowtransition>

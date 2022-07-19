@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jan Lenoch</Authors>
+    <Company>Kentico Software</Company>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Enums.NET" Version="3.0.3" />
+  </ItemGroup>
+</Project>

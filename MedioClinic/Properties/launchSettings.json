@@ -1,0 +1,25 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/MedioClinic",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49804/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Start": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+      },
+      "ErrorString": "Unexpected end of content while loading JObject. Path 'profiles', line 39, position 0."
+    }
+  }
+}
