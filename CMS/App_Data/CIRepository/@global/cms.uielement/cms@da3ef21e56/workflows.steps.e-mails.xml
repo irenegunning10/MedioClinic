@@ -37,6 +37,6 @@
   <ElementTargetURL>~/CMSModules/Workflows/Workflow_Step_Emails.aspx</ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!EditedObject.StepIsDefault && !EditedObject.StepIsAction && !EditedObjectParent.IsAutomation|(identity)GlobalAdministrator|(hash)e3e7e992069a9307cb4ba5f6c57294a8219710b272b3ed39724022f995f9ec69%}]]>
+    <![CDATA[{%!EditedObject.StepIsDefault && !EditedObject.StepIsAction && !EditedObjectParent.IsAutomation|(identity)GlobalAdministrator|(hash)841b5c08287afa4b63370e8e2f643aa2d7f95f275d8240771a54749569757c78%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

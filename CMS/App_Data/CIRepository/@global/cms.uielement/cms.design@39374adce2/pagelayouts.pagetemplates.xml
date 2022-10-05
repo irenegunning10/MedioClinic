@@ -38,6 +38,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%ToInt(QueryString.TemplateID,0) == 0;|(identity)GlobalAdministrator|(hash)87bc2df9349acfe30b348d7cbb50b911b4c3038f5f3cdcd5b2a166e957d9bad0%}]]>
+    <![CDATA[{%ToInt(QueryString.TemplateID,0) == 0;|(identity)GlobalAdministrator|(hash)9d8ebf83598782aca9db78e233694dcf6ab03b897bc409a590ca6e873c90cf5f%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

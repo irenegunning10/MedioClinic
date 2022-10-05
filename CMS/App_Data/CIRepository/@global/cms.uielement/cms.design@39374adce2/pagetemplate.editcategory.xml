@@ -35,7 +35,7 @@
       </javascript>
       <category_name_javascript>False</category_name_javascript>
       <displaybreadcrumbs ismacro="True">
-        <![CDATA[{% EditedObject.CategoryParentID > 0 |(identity)GlobalAdministrator|(hash)4b6fbd2010e2a817e189a181f07bc4cd2a2c4b410e805b0a57898fb8c52c803f%}]]>
+        <![CDATA[{% EditedObject.CategoryParentID > 0 |(identity)GlobalAdministrator|(hash)2006568e70e8c59e8e71d0961f714f2b4c726d2cb1a6ac85d8263e0584f31cb3%}]]>
       </displaybreadcrumbs>
       <objecttype>cms.pagetemplatecategory</objecttype>
     </data>

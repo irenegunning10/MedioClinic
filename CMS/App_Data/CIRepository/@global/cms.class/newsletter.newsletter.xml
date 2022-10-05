@@ -24,8 +24,8 @@
           <controlname>RadioButtonsControl</controlname>
           <Options>
 <![CDATA[
-0;{% GetResourceString("emailmarketing.ui.newsletteroption") |(identity)GlobalAdministrator|(hash)eef6e6e739b0167823a424ffe1419c9597b57f086b3f7daa83294df307457dda%}
-1;{% GetResourceString("emailmarketing.ui.campaignoption") |(identity)GlobalAdministrator|(hash)d35dc36ff25207cc8f49c852a2c62f582dc3f933aa98dd8d4735083ebd988371%}
+0;{% GetResourceString("emailmarketing.ui.newsletteroption") |(identity)GlobalAdministrator|(hash)9045b5f0f8736ea21d728664f2849682d82f3e317352491aa55baf7ffcd33219%}
+1;{% GetResourceString("emailmarketing.ui.campaignoption") |(identity)GlobalAdministrator|(hash)7c01056ba798514f6b268b3ba5f0931a73a98f8d63da03f69d270ef9d788c2c8%}
 ]]>
           </Options>
           <RepeatDirection>vertical</RepeatDirection>
@@ -314,7 +314,7 @@
       <category name="Newsletter">
         <properties>
           <visible ismacro="true">
-            <![CDATA[{% Settings.CMSAllowDynamicNewsletters && NewsletterType.Value == "0" |(identity)GlobalAdministrator|(hash)e90c4336d13b047c3b5d0ee11f77e9521bba76cb77997531f489ed4ba4b7c929%}]]>
+            <![CDATA[{% Settings.CMSAllowDynamicNewsletters && NewsletterType.Value == "0" |(identity)GlobalAdministrator|(hash)b696c6e6ee4f7a1a6d8b90ad2317e9e7920fe12d044b726b6c9f0cfc257c0cd8%}]]>
           </visible>
         </properties>
       </category>
@@ -328,8 +328,8 @@
           <controlname>RadioButtonsControl</controlname>
           <Options>
 <![CDATA[
-T;{% GetResourceString("emailmarketing.ui.templatebasedoption") |(identity)GlobalAdministrator|(hash)f6a4533f27bae67471463ab1e94685dece6dd9ce2d8ffc969b72f21aa575c333%}
-D;{% GetResourceString("emailmarketing.ui.pagebasedoption") |(identity)GlobalAdministrator|(hash)42d7af798676c24765bc03e6c8a12a9b35c57fa445275da10cfc3fd4011bdd5a%}
+T;{% GetResourceString("emailmarketing.ui.templatebasedoption") |(identity)GlobalAdministrator|(hash)a50f7544934fbd4eaaebb5f83299dcdd8fc20ca3506d2ebf0e8c8509ba254ee3%}
+D;{% GetResourceString("emailmarketing.ui.pagebasedoption") |(identity)GlobalAdministrator|(hash)1b26af478ca9f382a5a760dbb9ef9f59371673463ae23308a50ccd2f12515207%}
 ]]>
           </Options>
           <RepeatDirection>vertical</RepeatDirection>
@@ -341,7 +341,7 @@ D;{% GetResourceString("emailmarketing.ui.pagebasedoption") |(identity)GlobalAdm
         <properties>
           <caption>{$newsletter_edit.templatebased$}</caption>
           <visible ismacro="true">
-            <![CDATA[{% NewsletterType.Value == "1" || (NewsletterType.Value == "0" && NewsletterSource.Value == "T")|(identity)GlobalAdministrator|(hash)c5d61f35192efbda6eec4ff30a7bc80e6cc5d1d6a8b6949be5e5c36dbc44473e%}]]>
+            <![CDATA[{% NewsletterType.Value == "1" || (NewsletterType.Value == "0" && NewsletterSource.Value == "T")|(identity)GlobalAdministrator|(hash)f290ff770410d00d4fe33ceaa4a7acc06debfcd1509b6297c3daecafdf8cecf8%}]]>
           </visible>
         </properties>
       </category>
@@ -349,7 +349,7 @@ D;{% GetResourceString("emailmarketing.ui.pagebasedoption") |(identity)GlobalAdm
         <properties>
           <caption>{$newsletter_edit.dynamic$}</caption>
           <visible ismacro="true">
-            <![CDATA[{% Settings.CMSAllowDynamicNewsletters && NewsletterType.Value == "0" && NewsletterSource.Value == "D" |(identity)GlobalAdministrator|(hash)c93ed5d569884dc3673304a4b373a4aae8caa2cfa8f9cfc83588c6a568e8e562%}]]>
+            <![CDATA[{% Settings.CMSAllowDynamicNewsletters && NewsletterType.Value == "0" && NewsletterSource.Value == "D" |(identity)GlobalAdministrator|(hash)3b9c6a5db6691cbbb5ba9040204ab6767d637a7a2b70470e88d54c386a019878%}]]>
           </visible>
         </properties>
       </category>

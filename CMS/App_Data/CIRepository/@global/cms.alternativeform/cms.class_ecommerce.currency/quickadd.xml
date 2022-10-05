@@ -18,7 +18,7 @@
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% (Settings.CMSStoreUseGlobalCurrencies || (QueryString["siteid"] == "-4")) ? "" : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)25ad4026c13da6ff77cf9eebd2f62b1dbbc77bac9095fc8a5f8cafbd47a9df81%}]]>
+            <![CDATA[{% (Settings.CMSStoreUseGlobalCurrencies || (QueryString["siteid"] == "-4")) ? "" : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)9d60c3244d0d4e7844038294b62cd06e307cbcbbc8bfbc8b8f52c1f022f3d484%}]]>
           </defaultvalue>
         </properties>
       </field>

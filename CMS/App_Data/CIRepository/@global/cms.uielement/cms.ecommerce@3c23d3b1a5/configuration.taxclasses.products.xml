@@ -35,6 +35,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%!Convert.ToBool(QueryString["issitemanager"])|(identity)GlobalAdministrator|(hash)d5e66eabaa442860da42a0886cdbf416108788edd46d27c48322452a74e8fb3d%}]]>
+    <![CDATA[{%!Convert.ToBool(QueryString["issitemanager"])|(identity)GlobalAdministrator|(hash)008be849db96b3cea98a4c26dc2e18bbdf9aa26da77838c2e30ac757eea97aa7%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

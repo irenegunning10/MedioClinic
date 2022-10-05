@@ -21,14 +21,14 @@
         </settings>
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Settings.CMSStoreAllowGlobalSuppliers && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify") && (CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifySuppliers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify"))|(identity)GlobalAdministrator|(hash)5fe96ad0db0b5160fe413633846deb8b37e95bc652a01847c15175c0dcdc51c9%}]]>
+            <![CDATA[{%Settings.CMSStoreAllowGlobalSuppliers && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify") && (CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifySuppliers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify"))|(identity)GlobalAdministrator|(hash)ad501078af8adf7c7317c90309cfde301d52f8395846ff5e5e2123119252aace%}]]>
           </visiblemacro>
           <defaultvalue ismacro="true">
 <![CDATA[
 {% if (!Settings.CMSStoreAllowGlobalSuppliers
     || !CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify")
     || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifySuppliers")
-    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)4a69dab06a501cadf6dba7a0d99204002bff40a5b66fc051c125f03c80f9c5dd%}
+    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)f2432d7cb8b230eb4c1906dd564dc03ffe5ff9b254bee5be2516639b3674cb1e%}
 ]]>
           </defaultvalue>
           <fieldcaption>{$com.available$}</fieldcaption>

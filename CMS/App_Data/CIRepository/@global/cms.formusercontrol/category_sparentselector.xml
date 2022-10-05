@@ -26,7 +26,7 @@
       <field allowempty="true" column="ExcludeCategoryID" columntype="integer" guid="826f9077-f601-40dc-9d3f-fc9a648c5d5f">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%EditedObject.ID|(identity)GlobalAdministrator|(hash)780910052235d3f803d7c6771ce2c78f855e009b3b39daed4b72eca93a82ec0b%}]]>
+            <![CDATA[{%EditedObject.ID|(identity)GlobalAdministrator|(hash)3017b1ecebcdcb74e802282d9bc8b7ea629462543f47d15a182aa5bfc4fc4809%}]]>
           </defaultvalue>
         </properties>
       </field>
@@ -42,7 +42,7 @@
       <field allowempty="true" column="DisableSiteCategories" columntype="boolean" guid="d5655f86-5332-4d82-9fab-576b57d846d9">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%EditedObject.CategorySiteID == null|(identity)GlobalAdministrator|(hash)5051f0bff3187e39017befa09d8cbf714095d25f7075afe9c27afdc5058d1b93%}]]>
+            <![CDATA[{%EditedObject.CategorySiteID == null|(identity)GlobalAdministrator|(hash)79ed92e56675cd8b8e34b46af83a2f463f5121dcfd1e9db0bce51ae55b318939%}]]>
           </defaultvalue>
         </properties>
       </field>

@@ -25,14 +25,14 @@
       <field allowempty="true" column="ShippingOptionCarrierID" columntype="integer" guid="44289ffa-5e1a-4b40-8def-bcbf4c392fd5" system="true" visible="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%EditedObject.ID == 0|(identity)GlobalAdministrator|(hash)f93df2e9e67dc5f0023e0e9b8064d6e9606084b6e2731f028706b17df73b7b4c%}]]>
+            <![CDATA[{%EditedObject.ID == 0|(identity)GlobalAdministrator|(hash)b210f42fa805d11e4fd3f87baa9165f08893be5f774db62b2f60a1c7ec081a5b%}]]>
           </enabledmacro>
           <fieldcaption>{$com.shippingoption.carrier$}</fieldcaption>
         </properties>
         <settings>
           <controlname>LabelControl</controlname>
           <OutputFormat ismacro="true">
-            <![CDATA[{% EditedObject.ShippingOptionCarrier.CarrierDisplayName |(identity)GlobalAdministrator|(hash)ddabc84246a4d1cfbbe4d9994c4364d049c7abb58148ee3bec634221860556b6%}]]>
+            <![CDATA[{% EditedObject.ShippingOptionCarrier.CarrierDisplayName |(identity)GlobalAdministrator|(hash)28de3db1391ca1171ae0cf5ddcf70ea723ac3b12fd7d39341f9bfba21c0551d9%}]]>
           </OutputFormat>
         </settings>
       </field>
@@ -43,7 +43,7 @@
         <settings>
           <controlname>LabelControl</controlname>
           <OutputFormat ismacro="true">
-            <![CDATA[{% EditedObject.ShippingOptionServiceDisplayName |(identity)GlobalAdministrator|(hash)9770feda30614eb2f2c1fd7cb159345e1cdfe37b6a06a9ffba5f88ba6178682f%}]]>
+            <![CDATA[{% EditedObject.ShippingOptionServiceDisplayName |(identity)GlobalAdministrator|(hash)5a3edc88951de1ee57dcf24bf0e04dacb1bda52ab163690b219a9cf24d528492%}]]>
           </OutputFormat>
         </settings>
       </field>

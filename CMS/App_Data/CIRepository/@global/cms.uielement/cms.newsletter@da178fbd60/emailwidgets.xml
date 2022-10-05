@@ -36,7 +36,7 @@
       <ObjectType>newsletter.emailwidget</ObjectType>
       <OpenInDialog>False</OpenInDialog>
       <WhereCondition>
-        <![CDATA[EmailWidgetSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)4c87ec20da5d5500e604b06d4130c645fd7e8066c52863f4ef486c2f60f05d7c%}]]>
+        <![CDATA[EmailWidgetSiteID = {% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)1b300c941dcddf6676529891a428f58ea2736932dbb9b386c0bc8756f3327a30%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

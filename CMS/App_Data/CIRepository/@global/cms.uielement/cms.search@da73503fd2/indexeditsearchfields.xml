@@ -38,7 +38,7 @@
   <ElementVisibilityCondition>
 <![CDATA[
 {%EditedObject.IndexType
-  == "smartsearch.general"|(identity)GlobalAdministrator|(hash)6ae31ae4962ab0f65aa589dda995a59ca5c02b979c6e0705362e057f8b3593fb%}
+  == "smartsearch.general"|(identity)GlobalAdministrator|(hash)dba3d3d1916171322f3541fac41cbfb440b884583d8d6dc3198e153fc7dc22d1%}
 ]]>
   </ElementVisibilityCondition>
 </cms.uielement>

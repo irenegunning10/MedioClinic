@@ -28,8 +28,8 @@
         <settings>
           <SpecialFields>
 <![CDATA[
-;{$site_edit.automatic$};{%(AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.Custom)|(identity)GlobalAdministrator|(hash)129d956da73eca9e4bab4a5662babc657f9b2254c725e0cfef127c7e5bf116d1%}
-;{$general.pleaseselect$};{%(AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.BasedOnContentTree)|(identity)GlobalAdministrator|(hash)45f24af1beb6806694d16444dc53dc76622b3cc2c750e383bc381e962458c06a%}
+;{$site_edit.automatic$};{%(AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.Custom)|(identity)GlobalAdministrator|(hash)852d56fc5bc793a8707c9217c52a33bfd5ba3afd61f2567ce8f29f8f69774b31%}
+;{$general.pleaseselect$};{%(AllSites[EditedObjectParent.SiteName].DataContext.Settings.CMSRoutingMode == Enums.PageRoutingModeEnum.BasedOnContentTree)|(identity)GlobalAdministrator|(hash)f1bf4bc6797e492d17944bf9a5b3df7115daf2f88f0c690074e0df77aeee921b%}
 ]]>
           </SpecialFields>
         </settings>
@@ -42,7 +42,7 @@
       <field column="SiteDomainAliasType" guid="0d1ae28b-9467-4778-a551-69af1c4c6e17">
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{%Convert.ToInt(Enums.SiteDomainAliasTypeEnum.Administration)|(identity)GlobalAdministrator|(hash)0de87a91e70b2e862bd9816c06ef4404e20fc1ac513d65305690f99ce9d33ae1%}]]>
+            <![CDATA[{%Convert.ToInt(Enums.SiteDomainAliasTypeEnum.Administration)|(identity)GlobalAdministrator|(hash)132f8d722ba84ea0642c3f6c2a5381e4d0b7e7fdc831fa4e3c7212fe75264d37%}]]>
           </defaultvalue>
         </properties>
       </field>

@@ -2,11 +2,11 @@
 <cms.attachment>
   <AttachmentDocumentID>
     <CodeName>en-US</CodeName>
-    <GUID>db4b49c9-0392-4047-b7a1-4885e4bbd4a8</GUID>
+    <GUID>c1768b61-d428-4246-b52d-8eb45284e5cd</GUID>
     <ObjectType>cms.documentlocalization</ObjectType>
     <Parent>
-      <CodeName>/Reused-content/Company-services/Cardio-therapy</CodeName>
-      <GUID>aa7b5263-16c9-497d-b0cf-24a36c916f17</GUID>
+      <CodeName>/Reused-content/Company-services/Medical-consultancy</CodeName>
+      <GUID>bd16efa1-af58-4466-a281-a044018fc079</GUID>
       <ObjectType>cms.node</ObjectType>
       <Site>
         <CodeName>MedioClinic</CodeName>
@@ -16,15 +16,15 @@
     </Parent>
   </AttachmentDocumentID>
   <AttachmentExtension>.png</AttachmentExtension>
-  <AttachmentGUID>9548042c-711b-4947-b32d-92cb932ff849</AttachmentGUID>
-  <AttachmentImageHeight>83</AttachmentImageHeight>
-  <AttachmentImageWidth>95</AttachmentImageWidth>
+  <AttachmentGUID>1b552057-6c6e-4fc3-9c77-ed16c4d2cc0f</AttachmentGUID>
+  <AttachmentImageHeight>95</AttachmentImageHeight>
+  <AttachmentImageWidth>104</AttachmentImageWidth>
   <AttachmentMimeType>image/png</AttachmentMimeType>
-  <AttachmentName>cardio-therapy.png</AttachmentName>
+  <AttachmentName>medical-consultancy.png</AttachmentName>
   <AttachmentSiteID>
     <CodeName>MedioClinic</CodeName>
     <GUID>b0586482-77d3-4ffd-8f08-238f333157ff</GUID>
     <ObjectType>cms.site</ObjectType>
   </AttachmentSiteID>
-  <AttachmentSize>3267</AttachmentSize>
+  <AttachmentSize>3656</AttachmentSize>
 </cms.attachment>

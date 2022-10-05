@@ -24,7 +24,7 @@
   <ElementProperties>
     <Data>
       <breadcrumbsSuffix>
-        <![CDATA[{% EditedObject.GetNiceName() |(identity)GlobalAdministrator|(hash)883e5992ca7c0ac13e7d51e24a250aa00d3e48433fa8b841fa6ef77574785442%}]]>
+        <![CDATA[{% EditedObject.GetNiceName() |(identity)GlobalAdministrator|(hash)82462327ca55c7ab4bd193222594ba1474be3a0de09042cb80df3404c11acfca%}]]>
       </breadcrumbsSuffix>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <ObjectType>newsletter.newsletter</ObjectType>
@@ -42,6 +42,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%EditedObject.NewsletterType != "1"|(identity)GlobalAdministrator|(hash)e1a3137789576e5ba4e42e56117f852d1d3c96446043d48cbe1414d09866dd6d%}]]>
+    <![CDATA[{%EditedObject.NewsletterType != "1"|(identity)GlobalAdministrator|(hash)683fcddffa7acfe990b7ca38a3e719c9041d99b0f5fedabb763c321604389eeb%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

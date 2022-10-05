@@ -78,7 +78,7 @@
         </settings>
         <rules>
           <rule>
-            <![CDATA[{%Rule("Value > Fields[\"cb8b6189-4689-44e8-aca3-743b48555a28\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Valid from</t><v>cb8b6189-4689-44e8-aca3-743b48555a28</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than</t><v>&gt;</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)683425b9651cbbf377c9cc748e81157e5112ba3dad3efcf2dfa295cef28caca0%}]]>
+            <![CDATA[{%Rule("Value > Fields[\"cb8b6189-4689-44e8-aca3-743b48555a28\"].Value", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"CompareToField\" ><p n=\"field\"><t>Valid from</t><v>cb8b6189-4689-44e8-aca3-743b48555a28</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p><p n=\"operator\"><t>Is greater than</t><v>&gt;</v><r>0</r><d></d><vt>text</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e439c945fd1bb4de432eaa1778b5109721806c5f509ac103bb062bd63b5aca3b%}]]>
           </rule>
         </rules>
       </field>
@@ -129,7 +129,7 @@
       <field allowempty="true" column="MultiBuyDiscountRoles" columnsize="400" columntype="text" dependsonanotherfield="true" guid="72f32911-f3a6-4f65-b867-54c9e3379835" system="true">
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%MultiBuyDiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)d18a3e3d53a7bd2b6ab75f74b5b1b1d2e335868d8bb63e254bccf04b20dd9675%}]]>
+            <![CDATA[{%MultiBuyDiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)9b2dfb5eaf41b90b17fdcfb5970ed609e5f62e1cde6d731c561b0d7a96192229%}]]>
           </enabledmacro>
           <fielddescription>{$com.discount.rolesdesc$}</fielddescription>
         </properties>

@@ -22,7 +22,7 @@
         </settings>
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%!EditedObject.OrderIsPaid && !EditedObject.OrderIsAuthorized|(identity)GlobalAdministrator|(hash)907ae4731c6cb28d8237ad110d79485af30b82a4cffe86027804c70b096c83ff%}]]>
+            <![CDATA[{%!EditedObject.OrderIsPaid && !EditedObject.OrderIsAuthorized|(identity)GlobalAdministrator|(hash)64d54948885f8abd5b19bae5e6736df0301da2735e178a49b4b86acd3c8f1157%}]]>
           </enabledmacro>
           <fieldcaption>{$com.orderlist.paymentmethod$}</fieldcaption>
         </properties>
@@ -31,13 +31,13 @@
         <settings>
           <controlname>LabelControl</controlname>
           <OutputFormat>
-            <![CDATA[{%EditedObject.OrderCurrency|(identity)GlobalAdministrator|(hash)be97c8cc86665586ba176d72a33358a13a53dd43f2de89135e85cc0016baccf4%}]]>
+            <![CDATA[{%EditedObject.OrderCurrency|(identity)GlobalAdministrator|(hash)bf78ff8b332be0bdd30a01c992034524ae032bccbf05de5c1b7c01d6d1209def%}]]>
           </OutputFormat>
           <ResolveMacros>True</ResolveMacros>
         </settings>
         <properties>
           <enabledmacro ismacro="true">
-            <![CDATA[{%!EditedObject.OrderIsPaid|(identity)GlobalAdministrator|(hash)b3a12a2cec0174d04e90fb752c224d7d202f5198676b90da2fdbe19ae6499d30%}]]>
+            <![CDATA[{%!EditedObject.OrderIsPaid|(identity)GlobalAdministrator|(hash)d0bd561765dfd73b0666bf7f2a5ed165e15a145a80c08661b3a21db7cd60a059%}]]>
           </enabledmacro>
           <fieldcaption>{$com.orderlist.currency$}</fieldcaption>
         </properties>
@@ -75,13 +75,13 @@
           <ReturnColumnType>id</ReturnColumnType>
           <SelectionMode>6</SelectionMode>
           <Transformation>
-            <![CDATA[{%EditedObject.OrderBillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)8b31251fc3a226ab2fe7cd6aa5e210b48d50b74c5c8460bb18bf459b20e0f9a5%}]]>
+            <![CDATA[{%EditedObject.OrderBillingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)89864cda2772c700eaf3848e854bc46a5d4fae9f20c536cc307bf01472f20e52%}]]>
           </Transformation>
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition>
 <![CDATA[
-AddressOrderID = {%EditedObject.OrderID|(identity)GlobalAdministrator|(hash)0856eee32c856f7fe2910be74460b19ae9a890939ec81b35549fc4f34fc47fd6%} 
+AddressOrderID = {%EditedObject.OrderID|(identity)GlobalAdministrator|(hash)582b7243def70519e104b179fc5e0951fc72b1a0e6592396fb4ee53586a49172%} 
 AND 
 AddressType = 1
 ]]>
@@ -92,7 +92,7 @@ AddressType = 1
         <settings>
           <controlname>labelcontrol</controlname>
           <OutputFormat ismacro="true">
-            <![CDATA[{% EditedObject.OrderPaymentFormattedResult|(identity)GlobalAdministrator|(hash)3029ab7f2922de88f0427750dcb2b62b111d68e391c1898be7f0ce089d2ac337%}]]>
+            <![CDATA[{% EditedObject.OrderPaymentFormattedResult|(identity)GlobalAdministrator|(hash)9b35fc50fa7441d0768a6d56d3a84814a25f6b2fa2ecfd60a9c1e973c736b6f0%}]]>
           </OutputFormat>
         </settings>
         <properties>

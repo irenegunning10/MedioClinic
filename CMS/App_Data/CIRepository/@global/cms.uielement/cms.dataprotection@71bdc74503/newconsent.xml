@@ -31,7 +31,7 @@
       <DefaultFormLayout>Divs</DefaultFormLayout>
       <DisplayBreadcrumbs>False</DisplayBreadcrumbs>
       <RedirectURL>
-        <![CDATA[{% UIContext.GetElementUrl("CMS.DataProtection", "EditConsents", false, EditedObject.ID, "&tabname=Consents.ConsentText") |(identity)GlobalAdministrator|(hash)aeb504fe76e7ab3f27c1307b6d56e32b6fa0b0794ae124c2b6c5dfbdaf179b83%}]]>
+        <![CDATA[{% UIContext.GetElementUrl("CMS.DataProtection", "EditConsents", false, EditedObject.ID, "&tabname=Consents.ConsentText") |(identity)GlobalAdministrator|(hash)127c87d08e82b538070692a87dffbf3d920559ba356c1112c08ba16f9cddda4a%}]]>
       </RedirectURL>
     </Data>
   </ElementProperties>

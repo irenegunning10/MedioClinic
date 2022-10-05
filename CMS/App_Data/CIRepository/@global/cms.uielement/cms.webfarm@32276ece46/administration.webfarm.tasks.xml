@@ -49,7 +49,7 @@
   {
     FormatNotEmpty(SQLEscape(UIContext.WebFarmServerName), "ServerName = '{0}'");
   } |(handlesqlinjection)false
-|(identity)GlobalAdministrator|(hash)4bed0fe9418b5752df92a8ea3c0ca03fc7259af3366a2b6c10330c0e42c17553%}
+|(identity)GlobalAdministrator|(hash)cd637c392072baa39aa092e6efc7b3d76be73a3960f2e36ca2b300f3f816b06f%}
 ]]>
       </WhereCondition>
       <ZeroRowsText>{$ WebFarmTasks_List.ZeroRows $}</ZeroRowsText>

@@ -42,6 +42,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Debug.IsDebugEnabled("sqlqueries")|(identity)GlobalAdministrator|(hash)2cc3e9fd34a5f145f584f1fd9c8335466d55fce68cd11710fb261649b8146976%}]]>
+    <![CDATA[{%Debug.IsDebugEnabled("sqlqueries")|(identity)GlobalAdministrator|(hash)346c4c87dc5c3584d57285f1b8312ab10a6befc3375dc3dffabccaa1856ddde6%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

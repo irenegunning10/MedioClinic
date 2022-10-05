@@ -57,13 +57,13 @@
           <ReturnColumnType>id</ReturnColumnType>
           <SelectionMode>6</SelectionMode>
           <Transformation>
-            <![CDATA[{%EditedObject.OrderShippingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)27b6963bbbf9c4ff24284947c09b478c1b7f1f546db1874ead365be40fbb6b5d%}]]>
+            <![CDATA[{%EditedObject.OrderShippingAddress.ApplyTransformation("Ecommerce.Transformations.Order_OrderAddressDetail")|(identity)GlobalAdministrator|(hash)09314e500d5890ac98b76072e2e4371852379fe7139d5992399dcdb110b9ca24%}]]>
           </Transformation>
           <UseDefaultNameFilter>True</UseDefaultNameFilter>
           <ValuesSeparator>;</ValuesSeparator>
           <WhereCondition>
 <![CDATA[
-AddressOrderID = {%EditedObject.OrderID|(identity)GlobalAdministrator|(hash)0856eee32c856f7fe2910be74460b19ae9a890939ec81b35549fc4f34fc47fd6%} 
+AddressOrderID = {%EditedObject.OrderID|(identity)GlobalAdministrator|(hash)582b7243def70519e104b179fc5e0951fc72b1a0e6592396fb4ee53586a49172%} 
 AND 
 AddressType = 2
 ]]>

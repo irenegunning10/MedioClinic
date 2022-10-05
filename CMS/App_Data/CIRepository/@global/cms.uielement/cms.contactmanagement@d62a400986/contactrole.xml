@@ -45,6 +45,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"ReadConfiguration\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadConfiguration</t><v>ReadConfiguration</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)26e826ed1adeb8f1ab5854f4c62ed2d87c47892db72d4cc434ccde8eb7bf168f%}]]>
+    <![CDATA[{%Rule("(CurrentUser.IsAuthorizedPerResource(\"CMS.ContactManagement\",\"ReadConfiguration\"))", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"Permission\" ><p n=\"module\"><t>CMS.ContactManagement</t><v>CMS.ContactManagement</v><r>0</r><d>select module</d><vt>text</vt><tv>1</tv></p><p n=\"permission\"><t>ReadConfiguration</t><v>ReadConfiguration</v><r>0</r><d>select permission</d><vt>text</vt><tv>1</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)ec6d20155d4a98577da3394a89710c82d2d406e624defb58fba3e704e32072f0%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

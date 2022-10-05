@@ -41,6 +41,6 @@
   </ElementTargetURL>
   <ElementType>Url</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("cms.form", "ReadForm")|(identity)GlobalAdministrator|(hash)2e312182febbc52aca192af5bebf481155f848a6123d3f61e927870dc9ddcc74%}]]>
+    <![CDATA[{%CurrentUser.IsAuthorizedPerResource("cms.form", "ReadForm")|(identity)GlobalAdministrator|(hash)1f4d090d21ad8d53357176b3a59ca3d4bb630ada6a5dfd2e3f608f1d8df3acfd%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

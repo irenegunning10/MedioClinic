@@ -38,7 +38,7 @@
       <openindialog>False</openindialog>
       <editindialog>False</editindialog>
       <wherecondition>
-        <![CDATA[SharePointConnectionSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)0fc5ff476732f29df9520a4b0135b2b3025be805532bab534570066ef82513a6%}]]>
+        <![CDATA[SharePointConnectionSiteID = {%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)f05ae1824a1fe1c873de5b4684eb9824ccec2b4900ea51a5c33b49ef5d3bffb6%}]]>
       </wherecondition>
       <displaytitle>false</displaytitle>
     </data>

@@ -32,7 +32,7 @@
       <category_name_breadcrumbs>False</category_name_breadcrumbs>
       <defaultfieldlayout>default</defaultfieldlayout>
       <breadcrumbsitemtext>
-        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName: EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)89508a0de3f1ce101aba2a5c842eb2ef8925b3e18655fed6b7091310a577fbea%}]]>
+        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName: EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)ba3489592c7d34f10ca62ac035325c7eadbf17ec654f38eb7e9c99006ddc0015%}]]>
       </breadcrumbsitemtext>
       <siteid>-4</siteid>
       <defaultformlayout>Divs</defaultformlayout>

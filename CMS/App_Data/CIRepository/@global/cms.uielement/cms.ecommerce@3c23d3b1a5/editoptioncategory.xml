@@ -35,7 +35,7 @@
       <objecttype>ecommerce.optioncategory</objecttype>
       <displaybreadcrumbs>True</displaybreadcrumbs>
       <breadcrumbsitemtext>
-        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)ca592b261aeba1b243f9a6b7714ead30d6c3587e4c62399d8a4bb214f7d36e32%}]]>
+        <![CDATA[{% (EditedObject.SiteID >0)? EditedObject.DisplayName : EditedObject.DisplayName + " " + GetResourceString("general.global") |(identity)GlobalAdministrator|(hash)da2bdb59623ca41781a80748612f7d1a2ee390f6bc5643e1ff0cf4063460895c%}]]>
       </breadcrumbsitemtext>
       <allowsubtabs>True</allowsubtabs>
       <category_name_custom>False</category_name_custom>

@@ -37,13 +37,13 @@
       <ObjectType>cms.role</ObjectType>
       <SelectorType>Classic</SelectorType>
       <siteid>
-        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) ? (QueryString.SiteID != null? ToInt(QueryString.SiteID) : SiteContext.CurrentSiteID) : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)0003e7786dd31922f4f206cdeb4c769f6d815d68eeccd008ee79886080e652ee%}]]>
+        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) ? (QueryString.SiteID != null? ToInt(QueryString.SiteID) : SiteContext.CurrentSiteID) : SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)19d2a54766a0ac48b9b260bee0225dd6ffd2aa1c629813dcf3565c2cfc27333b%}]]>
       </siteid>
       <siteselectorvisibility>
-        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)31148007b434ad3b2bf60c0a677c1ac5d169dd9c1dcbcfdfbd666626a0743724%}]]>
+        <![CDATA[{% CurrentUser.CheckPrivilegeLevel(UserPrivilegeLevelEnum.GlobalAdmin) |(identity)GlobalAdministrator|(hash)3c232498b6d90b0bbfbc891478fcfb994ba1e2ccdcd723257ed3258652d5420d%}]]>
       </siteselectorvisibility>
       <WhereCondition>
-        <![CDATA[{% System.FormatId(UIContext.SiteID, " SiteID ={0}", " SiteID IS NULL") |(identity)GlobalAdministrator|(hash)bec66efeb1cd9399716335339180593392d2575aa5d617ba7a3fdba70c5bc011%}]]>
+        <![CDATA[{% System.FormatId(UIContext.SiteID, " SiteID ={0}", " SiteID IS NULL") |(identity)GlobalAdministrator|(hash)6f3618dddbb093b4dff85f66b268ce0922c8cd75dc8ea75d18571ccd02c01885%}]]>
       </WhereCondition>
     </Data>
   </ElementProperties>

@@ -44,7 +44,7 @@ true; {$com.discount.fixedamount$}
         </properties>
         <rules>
           <rule errormsg="{$com.discount.amountpercentage$}">
-            <![CDATA[{%Rule("(DiscountIsFlat.Value? true: Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>DiscountIsFlat.Value? true: Value&lt;=100</t><v>DiscountIsFlat.Value? true: Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)e33a9f9bbcfb3ff12355e1836d0723928e9b7b15e1364ec9aafbb57975b06d1f%}]]>
+            <![CDATA[{%Rule("(DiscountIsFlat.Value? true: Value<=100)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>DiscountIsFlat.Value? true: Value&lt;=100</t><v>DiscountIsFlat.Value? true: Value&lt;=100</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")|(identity)GlobalAdministrator|(hash)70212eaefc2b3803085f27a49bdcb5ed22caeaa45ac35335868eb5a982a23e02%}]]>
           </rule>
           <rule errormsg="{$com.discount.minamount$}">
             <![CDATA[{%Rule("(Value > 0)", "<rules><r pos=\"0\" par=\"\" op=\"and\" n=\"GeneralCondition\" ><p n=\"condition\"><t>Value &gt; 0</t><v>Value &gt; 0</v><r>0</r><d></d><vt>longtext</vt><tv>0</tv></p></r></rules>")%}]]>
@@ -86,7 +86,7 @@ true; {$com.discount.fixedamount$}
         </settings>
         <properties>
           <visiblemacro ismacro="true">
-            <![CDATA[{%DiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)76ab4b47de631e8585c63fec3c66fd73ea31bd2755b322a9068db98ebaded0e8%}]]>
+            <![CDATA[{%DiscountCustomerRestriction.Value == "SelectedRoles"|(identity)GlobalAdministrator|(hash)64663a3150bdfce2945db780880f0fb587c35921e915a7b9c1fa7efc1f9892e1%}]]>
           </visiblemacro>
           <enabledmacro />
         </properties>

@@ -51,6 +51,6 @@
   <ElementSize>0</ElementSize>
   <ElementType>PageTemplate</ElementType>
   <ElementVisibilityCondition>
-    <![CDATA[{%UIContext.EditedObjectParent.IsEditable|(identity)GlobalAdministrator|(hash)0f34fab9ec85257c0322b090eefbad08ceca8cba8d55d4fe8ab68e61f5e6587a%}]]>
+    <![CDATA[{%UIContext.EditedObjectParent.IsEditable|(identity)GlobalAdministrator|(hash)9ed1e3e9487360bfd5baffdbc46600061921ce22c37636b6544d97245598d9a4%}]]>
   </ElementVisibilityCondition>
 </cms.uielement>

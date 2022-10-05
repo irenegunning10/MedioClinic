@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.uielement>
   <ElementAccessCondition>
-    <![CDATA[{%(EditedObjectParent.DiscountSiteID == SiteContext.CurrentSiteID) && ( EditedObjectParent.DiscountApplyTo == "Order")|(identity)GlobalAdministrator|(hash)14fd14d7d388bcaf7f4270d9b7b333e2af2a8ba6cacdd6b9357ae6bbb8be38b1%}]]>
+    <![CDATA[{%(EditedObjectParent.DiscountSiteID == SiteContext.CurrentSiteID) && ( EditedObjectParent.DiscountApplyTo == "Order")|(identity)GlobalAdministrator|(hash)335ab7a9952d95c3bb7a44a2c7b8473d1abee8d07711aa339725e3b42a9499d2%}]]>
   </ElementAccessCondition>
   <ElementCaption>{$com.discount.editorderdiscount$}</ElementCaption>
   <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>

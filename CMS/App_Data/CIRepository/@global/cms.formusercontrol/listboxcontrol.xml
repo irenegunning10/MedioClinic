@@ -48,7 +48,7 @@
           <fieldcaption>{$listcontrol.textformat$}</fieldcaption>
           <fielddescription>{$listcontrol.textformatdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Options.DataSourceType > 1|(identity)GlobalAdministrator|(hash)5642b340205524a8d90b2ef63f9e7d7666e3e943e01622c9bfcef46cd34481ea%}]]>
+            <![CDATA[{%Options.DataSourceType > 1|(identity)GlobalAdministrator|(hash)146f276ea8da31bccf17cadcf1dcac237a9d328e073a3fdf4b1e48feb212a83e%}]]>
           </visiblemacro>
         </properties>
         <settings>
@@ -65,7 +65,7 @@
           <fieldcaption>{$listcontrol.valueformat$}</fieldcaption>
           <fielddescription>{$listcontrol.valueformatdesc$}</fielddescription>
           <visiblemacro ismacro="true">
-            <![CDATA[{%Options.DataSourceType > 1|(identity)GlobalAdministrator|(hash)5642b340205524a8d90b2ef63f9e7d7666e3e943e01622c9bfcef46cd34481ea%}]]>
+            <![CDATA[{%Options.DataSourceType > 1|(identity)GlobalAdministrator|(hash)146f276ea8da31bccf17cadcf1dcac237a9d328e073a3fdf4b1e48feb212a83e%}]]>
           </visiblemacro>
         </properties>
         <settings>

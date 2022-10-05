@@ -50,7 +50,7 @@
 {%  if(EditedObject.ID == 0)
   {
     GetResourceString("abtesting.description.watermark")
-  } |(identity)GlobalAdministrator|(hash)96699ac4fff827a85d1e65b5afc69b6be784c461e8a421795852922c1e496d38%}
+  } |(identity)GlobalAdministrator|(hash)3cc4a13aff76858f1b9cc6ac31c06f8e25de2cd9e1a774f1248ba57bb1bea63f%}
 ]]>
           </WatermarkText>
           <Wrap>True</Wrap>

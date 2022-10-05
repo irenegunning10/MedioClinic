@@ -46,7 +46,7 @@
           <fieldcaption>{$om.activity.contact$}</fieldcaption>
           <validationerrormessage>{$om.activity.contactdoesnotexist$}</validationerrormessage>
           <visiblemacro ismacro="true">
-            <![CDATA[{%QueryString.GetValue("contactid", 0) == 0|(identity)GlobalAdministrator|(hash)d8cc42706e47d3f5d7cb2b85ece0d3ee1d3bd0c38e6011912884e391719fdb67%}]]>
+            <![CDATA[{%QueryString.GetValue("contactid", 0) == 0|(identity)GlobalAdministrator|(hash)fcf445c8d70afb4ab96cbfdb122caa93043f3152ff5b03973ac8625607c8e439%}]]>
           </visiblemacro>
         </properties>
       </field>
@@ -99,7 +99,7 @@
         </settings>
         <properties>
           <defaultvalue ismacro="true">
-            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)4c87ec20da5d5500e604b06d4130c645fd7e8066c52863f4ef486c2f60f05d7c%}]]>
+            <![CDATA[{% SiteContext.CurrentSiteID |(identity)GlobalAdministrator|(hash)1b300c941dcddf6676529891a428f58ea2736932dbb9b386c0bc8756f3327a30%}]]>
           </defaultvalue>
           <fieldcaption>Site</fieldcaption>
         </properties>

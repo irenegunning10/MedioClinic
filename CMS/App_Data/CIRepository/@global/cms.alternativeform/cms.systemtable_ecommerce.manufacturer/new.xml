@@ -15,21 +15,21 @@
           <EditText>False</EditText>
           <Options>
 <![CDATA[
-{%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)0fc5ff476732f29df9520a4b0135b2b3025be805532bab534570066ef82513a6%};{$com.onthissiteonly$}
+{%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)f05ae1824a1fe1c873de5b4684eb9824ccec2b4900ea51a5c33b49ef5d3bffb6%};{$com.onthissiteonly$}
 ;{$com.globally$}
 ]]>
           </Options>
         </settings>
         <properties>
           <visiblemacro ismacro="">
-            <![CDATA[{%Settings.CMSStoreAllowGlobalManufacturers && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify") && (CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifyManufacturers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify"))|(identity)GlobalAdministrator|(hash)03f52c4dee052d0a0f2f9f9f52fc0450f1a4b1009752cfe6c624cdc55767a803%}]]>
+            <![CDATA[{%Settings.CMSStoreAllowGlobalManufacturers && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify") && (CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifyManufacturers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify"))|(identity)GlobalAdministrator|(hash)9f9fdc56ac7515125e99cee308c688011a0702a925f392bb47708443f5062317%}]]>
           </visiblemacro>
           <defaultvalue ismacro="true">
 <![CDATA[
 {% if (!Settings.CMSStoreAllowGlobalManufacturers
     || !CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify")
     || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifyManufacturers")
-    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)95cbe77d7cfbb99361d2da5b457347c51c7f21a40f6cafe5c3f0ac74ea2baef7%}
+    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)c3441c58f14ca7b262e9bb9a5c0251070f7d05ca3cc80a33933054fc6c814e55%}
 ]]>
           </defaultvalue>
           <fieldcaption>{$com.available$}</fieldcaption>
