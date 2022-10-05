@@ -54,7 +54,9 @@ namespace MedioClinic
             Options = configuration.GetSection(nameof(XperienceOptions));
         }
 
+
         // This method gets called by the runtime. Use this method to add services to the container.
+        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             // Enable desired Kentico Xperience features
@@ -168,9 +170,9 @@ namespace MedioClinic
                     pattern: "{culture}/error/{code}",
                     defaults: new { controller = "Error", action = "Index" },
                     constraints: new
-                    {
+                {
                         controller = ConventionalRoutingControllers
-                    });
+                });
 
                 endpoints.MapDefaultControllerRoute();
             });
